@@ -1,0 +1,360 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    z-index: 99;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-color: rgba(153, 205, 50, 0.477);
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .inner {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+header .inner h1 {
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+header nav ul {
+    text-align: center;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 22px;
+}
+header .inner > ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+header .inner > ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+/*  */
+.main_visual {
+    height: 100vh;
+    position: relative;
+}
+.main_visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main_visual div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main_visual div p {
+    width: 240px;
+    height: 53px;
+    border-radius: 30px;
+    background-color: yellowgreen;
+    text-align: center;
+    line-height: 53px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    color: #fff;
+}
+.main_visual div h2 {
+    font-size: 90px;
+    font-weight: normal;
+}
+.main_visual div h2 span {
+    font-weight: bold;
+}
+/*  */
+.best {
+    background: url('../img/피그마_여행페이지/bg02.png') center center / cover no-repeat;
+}
+
+.best .inner {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 233px 0;
+} 
+.best .inner .title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.best .inner .title h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.best .inner .title h3 span {
+    font-weight: bold;
+}
+.best .inner .list {
+    display: flex;
+    justify-content: space-between;
+}
+.best .inner .list .item {
+    width: 464px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.4s;
+}
+.best .inner .list .item:hover {
+    transform: translateY(-10%);
+}
+.best .inner .list .item img {
+    margin-left: 25px;
+}
+.best .inner .list .item div {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+}
+.best .inner .list .item div span {
+    background-color: yellowgreen;
+    color: #fff;
+    width: 67px;
+    height: 27px;
+    font-size: 14px;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.best .inner .list .item div p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+/*  */
+.best1 {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 137px 0;
+}
+.best1 .title1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 70px;
+}
+.best1 .title1 p {
+    width: 232px;
+    height: 56px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 56px;
+    font-size: 30px;
+    margin: 0 auto;
+    /* font-weight: normal; */
+    margin-bottom: 15px;
+    border: 3px solid #333;
+}
+.best1 .title1 h5 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+    
+}
+.best1 .list1 {
+    display: flex;
+    justify-content: space-between;
+}
+.best1 .list1 .item {
+    width: 342px;
+    height: 434px;
+    position: relative;
+}
+
+.best1 .list1 .item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    /* display: block; */
+
+}
+.best1 .list1 .item div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 40px 36px;
+    color: #fff;
+    font-weight: bold;
+}
+.best1 .list1 .item div h6 {
+    font-size: 30px;
+    position: relative;
+}
+.best1 .list1 .item div h6::before {
+    content: '';
+    width: 270px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    
+}
+.best1 .list1 .item div p {
+    font-size: 18px;
+    margin-top: 47px;
+}
+.best1 .list1 .item div a {
+    width: 103px;
+    height: 32px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 15px;
+    background-color: #000;
+    margin-top: 30px;
+    display: block;
+}
+/*  */
+.best2 {}
+.best2 .inner {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 144px 0;
+}
+.best2 .inner .title {
+    text-align: center;
+    margin-bottom: 85px;
+}
+.best2 .inner .title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.best2 .inner .title p {
+    color: #878787;
+    font-weight: normal;
+}
+
+.best2 .inner .list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.best2 .inner .btn {
+    width: 236px;
+    height: 69px;
+    text-align: center;
+    line-height: 69px;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #DDDDDD;
+    margin-top: 20px;
+}
+.best2 .inner .btn:hover {
+    background-color: royalblue;
+}
+.best2 .inner .list .item {
+    width: 464px;
+    /* background-color: aquamarine; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 2px solid #ddd;
+       
+}
+.best2 .inner .list .item img {
+    margin-left: 0;
+    height: 200px;
+   /*  border-radius: 20px 0 0 20px;
+    object-fit: cover; */
+}
+.best2 .inner .list .item div {
+   /*  background-color: orange; */
+    position: absolute;
+    top: 50%;
+    left: 244px;
+    transform: translateY(-50%);
+    
+}
+.best2 .inner .list .item div span {
+    background-color: #E9F0FE;
+    color: #1769FF;
+    width: 72px;
+    height: 27px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    border: 1px solid #1769FF;
+}
+.best2 .inner .list .item div .span {
+    width: 85px;
+}
+.best2 .inner .list .item div h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.best2 .inner .list .item div p {
+    font-size: 14px;
+}
+
+.best2 .inner .list1 {
+    display: flex;
+    justify-content: space-between;
+}
+.best2 .inner .list1 .item1 {
+    width: 464px;
+    height: 120px;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    position: relative;
+    margin-top: 107px;
+}
+.best2 .inner .list1 .item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.best2 .inner .list1 .item1 div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin-left: 40px;
+    
+}
+.best2 .inner .list1 .item1 h2 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.best2 .inner .list1 .item1 h2 span {
+    font-weight: bold;
+}
+.best2 .inner .list1 .item1 p {
+    font-size: 15px;
+    margin-top: 9px;
+}
